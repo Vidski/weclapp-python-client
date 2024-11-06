@@ -1,0 +1,29 @@
+# ShipmentReturnAssessmentGet200Response
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**result** | [**List[ShipmentReturnDescription]**](ShipmentReturnDescription.md) |  | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.shipment_return_assessment_get200_response import ShipmentReturnAssessmentGet200Response
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ShipmentReturnAssessmentGet200Response from a JSON string
+shipment_return_assessment_get200_response_instance = ShipmentReturnAssessmentGet200Response.from_json(json)
+# print the JSON string representation of the object
+print(ShipmentReturnAssessmentGet200Response.to_json())
+
+# convert the object into a dict
+shipment_return_assessment_get200_response_dict = shipment_return_assessment_get200_response_instance.to_dict()
+# create an instance of ShipmentReturnAssessmentGet200Response from a dict
+shipment_return_assessment_get200_response_from_dict = ShipmentReturnAssessmentGet200Response.from_dict(shipment_return_assessment_get200_response_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
